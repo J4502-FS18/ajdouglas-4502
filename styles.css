@@ -4,7 +4,8 @@ body{
   font-family: 'Armata';
   font-weight:bold;
   font-size: 24px;
-  background-color: yellow;
+  background-color: black;
+  background-image: url("lakersplayers.jpg");
 }
 #nav{
   list-style-type: none;
@@ -16,8 +17,31 @@ a{
   text-decoration: none;
 }
 
-#b1{
+a:visited{
+  color: white;
+}
+
+a:hover{
+  color: lime;
+}
+
+#navheader{
 padding: 20px;
   margin: 10px 10px 10px 10px;
   background-color: black;
+}
+
+#item1{
+  padding: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+#item2{
+  padding: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+#item3{
+  padding: 20px;
+    margin: 10px 10px 10px 10px;
 }
