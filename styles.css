@@ -1,6 +1,6 @@
 body{
   text-align:center;
-  color: orange;
+  color: #F63D21;
   font-family: 'Armata';
   font-weight:bold;
   font-size: 24px;
@@ -12,28 +12,55 @@ body{
   margin: 20px 20px 20px 20px;
   padding: 20px 20px 20px 20px;
 }
+
 a{
   text-decoration: none;
+  color: #F63D21;
 }
+
 
 a:visited{
   color: yellow;
 }
 
 a:hover{
-  color: lime;
+  color: #9DC202;
 }
 
 
-.navitems {
+/*.navitems {
   padding: 20px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px auto;
+    background-color: white;
+    width: 40%;
 }
-
+*/
 
 #navheader{
 padding: 20px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #F63D21;
   width:50%;
+  color: #8BC1FF;
+}
+
+#item1{
+  padding: 20px;
+    margin: 10px auto;
+    background-color: #008BFF;
+    width: 40%;
+}
+
+#item2{
+  padding: 20px;
+    margin: 10px auto;
+    background-color: #60B6FF;
+    width: 35%;
+}
+
+#item3{
+  padding: 20px;
+    margin: 10px auto;
+    background-color: #8BC1FF;
+    width: 27.5%;
 }
