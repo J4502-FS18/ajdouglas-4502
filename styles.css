@@ -1,10 +1,10 @@
 body{
   text-align:center;
-  color: purple;
+  color: orange;
   font-family: 'Armata';
   font-weight:bold;
   font-size: 24px;
-  background-image: url("whitepattern.jpg");
+  background-image: url("blackpattern.jpg");
 }
 #nav{
   list-style-type: none;
@@ -17,30 +17,23 @@ a{
 }
 
 a:visited{
-  color: white;
+  color: yellow;
 }
 
 a:hover{
   color: lime;
 }
 
+
+.navitems {
+  padding: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+
 #navheader{
 padding: 20px;
-  margin: 10px 10px 10px 10px;
-  background-color: black;
-}
-
-#item1{
-  padding: 20px;
-    margin: 10px 10px 10px 10px;
-}
-
-#item2{
-  padding: 20px;
-    margin: 10px 10px 10px 10px;
-}
-
-#item3{
-  padding: 20px;
-    margin: 10px 10px 10px 10px;
+  margin: 0 auto;
+  background-color: white;
+  width:50%;
 }
