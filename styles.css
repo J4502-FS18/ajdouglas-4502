@@ -45,22 +45,26 @@ padding: 20px;
 }
 
 #item1{
-  padding: 20px;
+  padding: 10px;
     margin: 10px auto;
     background-color: #008BFF;
     width: 40%;
 }
 
 #item2{
-  padding: 20px;
+  padding: 10px;
     margin: 10px auto;
     background-color: #60B6FF;
     width: 35%;
 }
 
 #item3{
-  padding: 20px;
+  padding: 10px;
     margin: 10px auto;
     background-color: #8BC1FF;
     width: 27.5%;
+}
+
+img{
+  border: none;
 }
