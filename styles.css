@@ -1,10 +1,10 @@
 body{
   text-align:center;
-  color: #F63D21;
+  color: #377363;
   font-family: 'Armata';
   font-weight:bold;
   font-size: 24px;
-  background-image: url("blackpattern.jpg");
+  background color: #EAFFFA;
 }
 #nav{
   list-style-type: none;
@@ -15,7 +15,7 @@ body{
 
 a{
   text-decoration: none;
-  color: #F63D21;
+  color: #363636;
 }
 
 
@@ -39,7 +39,7 @@ a:hover{
 #navheader{
 padding: 20px;
   margin: 0 auto;
-  background-color: #F63D21;
+  background-color: #A8796B;
   width:50%;
   color: #8BC1FF;
 }
@@ -47,21 +47,21 @@ padding: 20px;
 #item1{
   padding: 10px;
     margin: 10px auto;
-    background-color: #008BFF;
+    background-color: #93F5DB;
     width: 40%;
 }
 
 #item2{
   padding: 10px;
     margin: 10px auto;
-    background-color: #60B6FF;
+    background-color: #A8796B;
     width: 35%;
 }
 
 #item3{
   padding: 10px;
     margin: 10px auto;
-    background-color: #8BC1FF;
+    background-color: #93F5DB;
     width: 27.5%;
 }
 
