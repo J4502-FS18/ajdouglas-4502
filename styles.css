@@ -87,15 +87,3 @@ h2{
   padding: 0 auto;
   font-size: 20px;
 }
-
-#sportslink a:link{
-color:red;
-}
-
-#sportslink a:hover{
-    color: #9DC202;
-}
-
-#sportslink a:visited{
-    color: #001FB2;
-}
