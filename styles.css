@@ -73,7 +73,8 @@ padding: 20px;
 
 img{
   border: none;
-  align-content: center;
+  margin: 0px;
+  align-items:center;
 }
 
 h1{
