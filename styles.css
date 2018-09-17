@@ -3,7 +3,7 @@ body{
   color: #377363;
 font-family: 'Source Serif Pro', serif;
   font-weight:bold;
-  font-size: 24px;
+  font-size: 18px;
   background color: #EAFFFA;
 }
 #nav{
@@ -21,7 +21,7 @@ a{
 
 
 a:visited{
-  color: yellow;
+  color: #001FB2;
 }
 
 a:hover{
@@ -52,6 +52,7 @@ padding: 20px;
     margin: 10px auto;
     background-color: #93F5DB;
     width: 40%;
+    font-size: 20px;
 }
 
 #item2{
@@ -59,6 +60,7 @@ padding: 20px;
     margin: 10px auto;
     background-color: #A8796B;
     width: 35%;
+    font-size: 20px;
 }
 
 #item3{
@@ -66,6 +68,7 @@ padding: 20px;
     margin: 10px auto;
     background-color: #93F5DB;
     width: 27.5%;
+    font-size: 20px;
 }
 
 img{
@@ -76,10 +79,23 @@ h1{
   font-family: 'Righteous';
   margin: 0 auto;
   padding: 0 auto;
+  font-size: 70px;
 }
 
 h2{
   margin: 0 auto;
   padding: 0 auto;
   font-size: 20px;
+}
+
+#sportslink a:link{
+color:red;
+}
+
+#sportslink a:hover{
+    color: #9DC202;
+}
+
+#sportslink a:visited{
+    color: #001FB2;
 }
