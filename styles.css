@@ -1,7 +1,7 @@
 body{
   text-align:center;
   color: #377363;
-  font-family: 'Armata';
+font-family: 'Source Serif Pro', serif;
   font-weight:bold;
   font-size: 24px;
   background color: #EAFFFA;
@@ -11,6 +11,7 @@ body{
   text-align: center;
   margin: 20px 20px 20px 20px;
   padding: 20px 20px 20px 20px;
+  font-family: 'Ubuntu';
 }
 
 a{
@@ -41,7 +42,9 @@ padding: 20px;
   margin: 0 auto;
   background-color: #A8796B;
   width:50%;
-  color: #8BC1FF;
+  color: #9DC202;
+  font-size: 50px;
+  font-family: 'Righteous';
 }
 
 #item1{
@@ -67,4 +70,16 @@ padding: 20px;
 
 img{
   border: none;
+}
+
+h1{
+  font-family: 'Righteous';
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+h2{
+  margin: 0 auto;
+  padding: 0 auto;
+  font-size: 20px;
 }
