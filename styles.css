@@ -37,7 +37,7 @@ a:hover{
 }
 */
 
-#navheader{
+/*#navheader{
 padding: 20px;
   margin: 0 auto;
   background-color: #A8796B;
@@ -70,7 +70,7 @@ padding: 20px;
     width: 27.5%;
     font-size: 20px;
 }
-
+*/
 img{
   border: none;
   margin: 0px;
@@ -88,4 +88,29 @@ h2{
   margin: 0px;
   padding: 0px;
   font-size: 20px;
+}
+
+.container{
+  display:flex;
+  justify-content: space-between;
+  font-family: 'Righteous';
+  font-size: 20px;
+}
+.page-1{
+    background-color: #93F5DB;
+}
+
+.page-2{
+  background-color: #93F5DB;
+}
+
+.page-3{
+  background-color: #93F5DB;
+}
+
+@media (max-width:1000px){
+.container{
+  flex-direction: column;
+}
+
 }
