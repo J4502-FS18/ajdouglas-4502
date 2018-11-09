@@ -90,13 +90,21 @@ h2{
   font-size: 20px;
 }
 
-.container{
-  display:flex;
-  justify-content: space-between;
+/*.container{
+
+
+GRID THINGS
+
+  display: grid;
+  list-style: none;
+  grid-template-columns: 500px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
   font-family: 'Righteous';
   font-size: 20px;
+  grid-gap: 20px;*/
 }
-.page-1{
+/*.page-1{
     background-color: #93F5DB;
 }
 
@@ -106,11 +114,48 @@ h2{
 
 .page-3{
   background-color: #93F5DB;
+}*/
+
+
+
 }
 
-@media (max-width:1000px){
-.container{
-  flex-direction: column;
+ul li{
+display: block;
+border-top: 1px black solid;
 }
+
+li{
+  text-decoration: none;
+}
+
+.container a{
+  display: block;
+  color: black;
+  padding: 20px 30px;
+}
+
+.menutrigger{
+  display: flex;
+  flex-flow: row;
+  font-size: 2em;
+}
+
+.container{
+  display: none;
+}
+
+@media screen and (min-width: 700px){
+  .container{
+    display: flex;
+  }
+
+  .container{
+    border-top: none;
+  }
+
+  .menutrigger{
+    display: none;
+  }
 
 }
